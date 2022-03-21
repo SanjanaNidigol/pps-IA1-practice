@@ -23,13 +23,13 @@ int cmp(int a, int b, int c)
 int input()
 {
   int a;
-  printf("enter three numbers\n");
+  printf("enter any three numbers\n");
   scanf("%d",&a);
   return a;
 }
 void output(int a, int b, int c ,int largest)
 {
-  printf("%d is the largest number\n",largest);
+  printf("%d is the largest number among the given numbers\n",largest);
 }
 int main()
 {
