@@ -2,7 +2,7 @@
 int input_n()
 {
   int n;
-  printf("enter the value\n");
+  printf("enter any value\n");
   scanf("%d",&n);
   return n;
 }
@@ -21,7 +21,7 @@ void output(int n, int sum)
   {
     printf("%d+",i);
   }
-  printf("%d=%d",i,sum);
+  printf("%d=%d",n,sum);
 
 }
 int main()

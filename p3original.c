@@ -21,7 +21,7 @@ void output(int n, int sum)
   {
     printf("%d+",i);
   }
-  printf("%d=%d",i,sum);
+  printf("%d=%d",n,sum);
 
 }
 int main()

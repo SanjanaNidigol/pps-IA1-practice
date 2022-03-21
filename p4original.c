@@ -8,7 +8,7 @@ int input_array_size()
 }
 void array_input(int n, int *a)
 {
-  printf("enter the numbers\n");
+  printf("Enter the numbers\n");
   for(int i=0;i<n;i++)
   {
     scanf("%d",&a[i]);
